@@ -35,9 +35,6 @@ ul {
   padding: o 15px;
   margin: 0 auto;
   box-sizing: border-box;
-  /*align-items: center;
-  justify-items: center;
-  align-content: center;*/
 }
 .section {
   padding-top: 94px;
@@ -150,19 +147,9 @@ ul {
   background-color: var(--third-background);
   display: flex;
   flex-direction: column;
-  /*align-items: center;*/
-  /*justify-items: center;*/
   padding-top: 200px;
-  /*padding-right: 452px;*/
   padding-bottom: 200px;
-  /*padding-left: 452px;*/
 }
-/*.section1 .container {
-  justify-self: center;
-}*/
-/*.container .section1-item .button {
-  justify-items: center;
-}*/
 .section1-item {
   font-weight: 900;
   font-size: 44px;
@@ -170,8 +157,6 @@ ul {
   letter-spacing: 1.36;
   color: var(--contrast-text-color);
   text-transform: uppercase;
-  margin-bottom: 30px;
-  /*justify-self: center;*/
   max-width: 696px;
   text-align: center;
   margin: 0 auto;
@@ -183,7 +168,7 @@ ul {
   letter-spacing: 1.88;
   padding: 10px 41px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  /*justify-self: center;*/
+  margin-top: 30px;
 }
 .section2-title {
   font-weight: 700;
@@ -207,8 +192,14 @@ ul {
   text-align: center;
   margin-bottom: 50px;
 }
+.section3 .section-list {
+  justify-content: space-between;
+}
 .section4 {
   padding-bottom: 94px;
+}
+.section4 .section-list {
+  justify-content: space-between;
 }
 .section4 figure {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -263,7 +254,6 @@ ul {
 }
 .section5 .section-list {
   flex-wrap: wrap;
-  /*gap: calc(10% / 3);*/
 }
 .section5 .section-list li {
   flex-basis: calc((100% - 60px) / 3);
